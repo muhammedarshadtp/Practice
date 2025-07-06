@@ -1,11 +1,22 @@
-const http = require('http')
+// const http = require('http')
 
-const server= http.createServer((req,res)=>{
-    res.statusCode=200
-    res.setHeader('Content-Type','text/plain')
-    res.end('welcome to Node,js page')
-})
+// const server= http.createServer((req,res)=>{
+//     res.write('welcome to helloworld')
+//     res.end()
+// })
 
-server.listen(3000,()=>{
-console.log("server is running")
-})
+// server.listen(3000,()=>{
+// console.log("server is running")
+// })
+
+
+// setIntervel - example
+
+// setTimeout(()=>{
+//     console.log("this is setTimeout")
+// },3000)
+
+// setInterval(()=>{
+//     console.log("this is setIntervel");
+    
+// },2000)
